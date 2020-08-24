@@ -1,0 +1,26 @@
+.block__div--post h2 {
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.block__section--comments h3 {
+  font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.block__section--name,
+.block__section--comment-text,
+.block__section--reply {
+  font-size: calc(10px + (12 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.block__div--post h2, 
+.block__section--comments h3, 
+.block__section--name,
+.block__form button  {
+  text-transform: capitalize;
+}
+
+.block__div--post h2, 
+.block__section--comments h3,
+.block__section--name  {
+  font-weight: 600;
+}

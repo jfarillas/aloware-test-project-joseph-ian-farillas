@@ -1,0 +1,24 @@
+.bg-blue {
+  background-color: #0e5cdc;
+}
+
+.navbar-light .navbar-brand, .navbar-list {
+  color: #fff !important;
+}
+
+a.navbar-list:hover {
+  font-weight: bold !important;
+}
+
+.block_div-title {
+  width: 150px;
+}
+
+.block_div-title a {
+  padding-bottom: 0 !important;
+}
+
+.block_div-title .author {
+  font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: 0.03rem;
+}
